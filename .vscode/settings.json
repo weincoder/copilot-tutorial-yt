@@ -1,0 +1,41 @@
+{
+  "conventionalCommits.scopes": [
+    "auth",
+    "api",
+    "ui",
+    "docs",
+    "config",
+    "deps",
+    "ci",
+    "test"
+  ],
+  "git.inputValidationSubjectLength": 72,
+  "git.inputValidationLength": 500,
+  "conventionalCommits.autoCommit": false,
+  "conventionalCommits.showEditor": true,
+  "conventionalCommits.lineBreak": "\n",
+  "conventionalCommits.promptCI": true,
+  "conventionalCommits.promptBody": true,
+  "conventionalCommits.promptFooter": true,
+  "conventionalCommits.promptScopes": true,
+  "conventionalCommits.gitmoji": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.docusaurus": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.docusaurus": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true
+  }
+}
